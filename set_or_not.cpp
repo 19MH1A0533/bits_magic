@@ -8,7 +8,7 @@ int main()
     cin>>num;
     cout<<"enter position";
     cin>>pos;
-    if(num&((pos-1)<<1))
+    if(num&(1<<(pos-1))
     {
         cout<<"given number is set ";
     }
